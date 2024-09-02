@@ -1,11 +1,11 @@
-def single_root_words(root_word, *other_words, same_words=[]):
-    print(root_word, *other_words, same_words)
-    same_words = "bee", "bumblebee", "wasp", "Darwin's spider", "dragonfly"
+def print_params(a =1, b="строка", c=True):
+    print(a, b, c)
 
+values_list_2[54.32, "строка"]
+print_params(*values_list_2, 42)
 
-    for i in same_words:
-        Append,List
-
+print_params(b = 25)
+print_params(c = [1,2,3])
 
 
 
